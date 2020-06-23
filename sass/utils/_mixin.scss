@@ -25,6 +25,7 @@
 @mixin note {
     background-color: $color-card-note;
     font-family: $font-note;
+    color:$color-text-note;
     & h2 {
         font-family: 'Cabin', sans-serif;
         font-weight: normal;  

@@ -1,0 +1,19 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "OhMyFood : site de réservation de menus en ligne.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaDaMeDev/P3-OC.git"
+  },
+  "author": "elodie S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaDaMeDev/P3-OC/issues"
+  },
+  "homepage": "https://github.com/MaDaMeDev/P3-OC#readme"
+}

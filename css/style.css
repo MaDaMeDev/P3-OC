@@ -1,0 +1,68 @@
+header {
+  background-color: #579C87;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+}
+header .logo {
+  color: #FDCB46;
+  font-family: "Roboto Slab", serif;
+  font-size: 98px;
+  line-height: 127px;
+}
+
+button {
+  width: 620px;
+  height: 115px;
+  background-color: #579C87;
+  color: #FDCB46;
+  font-size: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: auto;
+  text-decoration: none;
+}
+
+.menus {
+  border: 4px solid black;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menus__cards {
+  width: 40%;
+  height: 80vh;
+  margin-bottom: 90px;
+  display: flex;
+  text-align: center;
+  border: 4px solid blue;
+}
+.menus__cards h2 {
+  font-size: 110px;
+}
+.menus__cards h3 {
+  font-size: 68px;
+}
+
+.menus__cards--note {
+  background-color: #FCDFDB;
+  font-family: "Cookie", cursive;
+}
+.menus__cards--note h2 {
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+}
+
+footer {
+  height: 150px;
+  background-color: #579C87;
+  color: #FDCB46;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

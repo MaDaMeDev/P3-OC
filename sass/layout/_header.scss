@@ -1,0 +1,12 @@
+header {
+    background-color: $color-primary;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    & .logo {
+         color: $color-secondary;
+         font-family: $font-primary;
+         font-size: 98px;
+         line-height: 127px;       
+    }
+}

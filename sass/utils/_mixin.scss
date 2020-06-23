@@ -1,0 +1,32 @@
+@mixin menus {
+    border: 4px solid black;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+@mixin cards {
+    width: 40%;
+    height:80vh;
+    margin-bottom: 90px;
+    display: flex;
+    text-align: center;
+    & h2 {
+     font-size: $font-size-h2;
+    }
+    & h3 {
+     font-size: $font-size-h3;
+    }
+    border: 4px solid blue;
+}
+
+@mixin note {
+    background-color: $color-card-note;
+    font-family: $font-note;
+    & h2 {
+        font-family: 'Cabin', sans-serif;
+        font-weight: normal;  
+    }
+}
+

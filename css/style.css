@@ -25,6 +25,7 @@ button {
 * {
   margin: auto;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .menus {
@@ -40,29 +41,49 @@ button {
   margin-bottom: 90px;
   display: flex;
   text-align: center;
-  border: 4px solid blue;
-}
-.menus__cards h2 {
-  font-size: 110px;
-}
-.menus__cards h3 {
-  font-size: 68px;
 }
 
 .menus__cards--note {
   background-color: #FCDFDB;
+  box-shadow: 0 0 25px silver;
+  color: #3C1218;
   font-family: "Cookie", cursive;
 }
-.menus__cards--note h2 {
-  font-family: "Cabin", sans-serif;
-  font-weight: normal;
+
+.menus__cards--chic {
+  background-color: #FFF5FE;
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#FDCB46, #905BFD);
+  font-family: "Croissant One", cursive;
+}
+
+.menus__cards--delice {
+  background-color: #F9F9F9;
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#0835E0, #0887FB);
+  font-family: "Dancing Script", cursive;
+}
+
+.menus__cards--palette {
+  background-color: linear-gradient(#4C9F42, #C9FF94);
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#4C9F42, #C9FF94);
+  font-family: "Kaushan Script", cursive;
 }
 
 footer {
   height: 150px;
   background-color: #579C87;
-  color: #FDCB46;
   margin-top: 100px;
+  font-size: 48px;
+}
+footer .footer__list {
+  border: 5px solid black;
+  padding: 50px;
+  display: flex;
+}
+footer .footer__list a {
+  color: #FDCB46;
 }
 
 /*# sourceMappingURL=style.css.map */

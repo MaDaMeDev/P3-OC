@@ -1,13 +1,14 @@
-@import"./utils/_variables" ;
-@import"./utils/mixin.scss";
+@import"./utils/_variables.scss";
+@import"./utils/_mixin.scss";
 
 @import"./layout/_header.scss";
 
-@import"./components/button";
+@import"./components/_button.scss";
 
 * {
     margin:auto;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .menus {
@@ -18,15 +19,40 @@
 }
 
 .menus__cards--note {
-    @include note;
+    @include card (card-note);
 }
+
+.menus__cards--chic {
+    @include card (card-chic);
+}
+
+.menus__cards--delice {
+    @include card(card-delice);
+}
+
+.menus__cards--palette {
+    @include card (card-palette)
+}
+
+ 
 
 footer {
     height: 150px;
     background-color: $color-primary;
-    color: $color-secondary;
     margin-top: 100px;
+    font-size: map-get( $font-size, footer);
+    & .footer__list {
+        border: 5px solid black;
+        padding:50px;
+        display: flex;
+        & a { 
+          color: $color-secondary;
+        
+        }      
+    } 
 }
+
+
 
 
 

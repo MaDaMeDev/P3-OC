@@ -21,6 +21,9 @@ button {
   display: flex;
   justify-content: center;
 }
+button .fa-circle {
+  font-size: 1.3rem;
+}
 
 * {
   margin: auto;
@@ -28,43 +31,39 @@ button {
   box-sizing: border-box;
 }
 
-.menus {
+main section.menus {
   border: 4px solid black;
-  width: 80%;
+  width: 60%;
   margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
 }
-.menus__cards {
+main section.menus .menus__cards {
   width: 40%;
   height: 80vh;
   margin-bottom: 90px;
   display: flex;
   text-align: center;
 }
-
-.menus__cards--note {
-  background-color: #FCDFDB;
-  box-shadow: 0 0 25px silver;
-  color: #3C1218;
-  font-family: "Cookie", cursive;
-}
-
-.menus__cards--chic {
+main section.menus .menus__cards--chic {
   background-color: #FFF5FE;
   box-shadow: 0 0 25px silver;
   color: linear-gradient(#FDCB46, #905BFD);
   font-family: "Croissant One", cursive;
 }
-
-.menus__cards--delice {
+main section.menus .menus__cards--note {
+  background-color: #FCDFDB;
+  box-shadow: 0 0 25px silver;
+  color: #3C1218;
+  font-family: "Cookie", cursive;
+}
+main section.menus .menus__cards--delice {
   background-color: #F9F9F9;
   box-shadow: 0 0 25px silver;
   color: linear-gradient(#0835E0, #0887FB);
   font-family: "Dancing Script", cursive;
 }
-
-.menus__cards--palette {
+main section.menus .menus__cards--palette {
   background-color: linear-gradient(#4C9F42, #C9FF94);
   box-shadow: 0 0 25px silver;
   color: linear-gradient(#4C9F42, #C9FF94);

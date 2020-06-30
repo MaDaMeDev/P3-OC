@@ -5,35 +5,34 @@
 
 @import"./components/_button.scss";
 
+@import"./base/_typography.scss";
+
 * {
     margin:auto;
     text-decoration: none;
     box-sizing: border-box;
 }
 
-.menus {
-    @include menus ;
-    &__cards {
-        @include cards;
-   }   
+main {
+    section.menus {
+      @include menus;
+        & .menus__cards {
+          @include cards;
+          &--chic {
+            @include card(card-chic); 
+          }
+          &--note {
+            @include card(card-note);
+          }
+          &--delice {
+            @include card(card-delice);
+          }
+          &--palette {
+            @include card(card-palette);
+          } 
+        }
+     }
 }
-
-.menus__cards--note {
-    @include card (card-note);
-}
-
-.menus__cards--chic {
-    @include card (card-chic);
-}
-
-.menus__cards--delice {
-    @include card(card-delice);
-}
-
-.menus__cards--palette {
-    @include card (card-palette)
-}
-
  
 
 footer {

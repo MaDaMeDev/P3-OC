@@ -1,0 +1,12 @@
+
+main {
+    section.menus-2{
+
+        @include menus;
+        @include card(card-chic);
+        & .menus-2__details{
+            @include menu-details
+        }   
+    }
+
+}

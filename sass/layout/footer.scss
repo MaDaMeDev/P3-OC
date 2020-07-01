@@ -1,0 +1,15 @@
+footer {
+    height: 10vh;
+    background-color: $color-primary;
+    margin-top: 100px;
+    & .footer__list {
+        border: 5px solid black;
+        padding:20px;
+        display: flex;
+        & a { 
+          color: $color-secondary;
+          font-size: map-get( $font-size,footer);
+        
+        }      
+    } 
+}

@@ -1,0 +1,11 @@
+main {
+    section.menus-3{
+
+        @include menus;
+        @include card(card-delice);
+        & .menus-3__details{
+            @include menu-details
+        }   
+    }
+
+}

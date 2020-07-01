@@ -1,0 +1,11 @@
+main {
+    section.menus-4{
+
+        @include menus;
+        @include card(card-palette);
+        & .menus-4__details{
+            @include menu-details
+        }   
+    }
+
+}

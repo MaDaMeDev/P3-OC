@@ -2,54 +2,25 @@
 @import"./utils/_mixin.scss";
 
 @import"./layout/_header.scss";
+@import"./layout/footer.scss";
 
 @import"./components/_button.scss";
 
 @import"./base/_typography.scss";
+@import"./base/reset.scss";
 
-* {
-    margin:auto;
-    text-decoration: none;
-    box-sizing: border-box;
-}
+@import"./pages/accueil.scss";
+@import"./pages/lanoteenchantée.scss";
+@import"./pages/lechicàlafrançaise.scss";
+@import"./pages/ledelicedespapilles.scss";
+@import"./pages/lapalettedugout.scss";
 
-main {
-    section.menus {
-      @include menus;
-        & .menus__cards {
-          @include cards;
-          &--chic {
-            @include card(card-chic); 
-          }
-          &--note {
-            @include card(card-note);
-          }
-          &--delice {
-            @include card(card-delice);
-          }
-          &--palette {
-            @include card(card-palette);
-          } 
-        }
-     }
-}
+
+
+
  
 
-footer {
-    height: 150px;
-    background-color: $color-primary;
-    margin-top: 100px;
-    font-size: map-get( $font-size, footer);
-    & .footer__list {
-        border: 5px solid black;
-        padding:50px;
-        display: flex;
-        & a { 
-          color: $color-secondary;
-        
-        }      
-    } 
-}
+
 
 
 

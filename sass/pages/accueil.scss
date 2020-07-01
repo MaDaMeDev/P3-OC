@@ -1,0 +1,22 @@
+main {
+    section.menus {
+      @include menus;
+      display: flex;
+      flex-wrap: wrap;  
+        & .menus__cards {
+          @include cards;
+          &--chic {
+            @include card(card-chic); 
+          }
+          &--note {
+            @include card(card-note);
+          }
+          &--delice {
+            @include card(card-delice);
+          }
+          &--palette {
+            @include card(card-palette);
+          } 
+        }
+     }
+}

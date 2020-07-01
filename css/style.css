@@ -1,6 +1,6 @@
 header {
   background-color: #579C87;
-  height: 230px;
+  height: 20vh;
   display: flex;
   justify-content: center;
 }
@@ -11,12 +11,27 @@ header .logo {
   line-height: 127px;
 }
 
+footer {
+  height: 10vh;
+  background-color: #579C87;
+  margin-top: 100px;
+}
+footer .footer__list {
+  border: 5px solid black;
+  padding: 20px;
+  display: flex;
+}
+footer .footer__list a {
+  color: #FDCB46;
+  font-size: 2rem;
+}
+
 button {
-  width: 620px;
+  width: 550px;
   height: 115px;
   background-color: #579C87;
   color: #FDCB46;
-  font-size: 60px;
+  font-size: 3rem;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -26,13 +41,13 @@ button .fa-circle {
 }
 
 * {
+  padding: 0;
   margin: auto;
   text-decoration: none;
   box-sizing: border-box;
 }
 
 main section.menus {
-  border: 4px solid black;
   width: 60%;
   margin: 100px auto;
   display: flex;
@@ -40,7 +55,7 @@ main section.menus {
 }
 main section.menus .menus__cards {
   width: 40%;
-  height: 80vh;
+  height: 70vh;
   margin-bottom: 90px;
   display: flex;
   text-align: center;
@@ -70,19 +85,132 @@ main section.menus .menus__cards--palette {
   font-family: "Kaushan Script", cursive;
 }
 
-footer {
-  height: 150px;
-  background-color: #579C87;
-  margin-top: 100px;
-  font-size: 48px;
+main section.menus-1 {
+  width: 60%;
+  margin: 100px auto;
+  background-color: #FCDFDB;
+  box-shadow: 0 0 25px silver;
+  color: #3C1218;
+  font-family: "Cookie", cursive;
 }
-footer .footer__list {
-  border: 5px solid black;
-  padding: 50px;
+main section.menus-1 .menus-1__details {
+  display: flex;
+  flex-direction: column;
+}
+main section.menus-1 .menus-1__details h3, main section.menus-1 .menus-1__details h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+main section.menus-1 .menus-1__details ul {
+  width: 100%;
+  list-style: none;
+}
+main section.menus-1 .menus-1__details ul li {
   display: flex;
 }
-footer .footer__list a {
-  color: #FDCB46;
+main section.menus-1 .menus-1__details ul li p {
+  margin-left: 50px;
+}
+main section.menus-1 .menus-1__details ul li .price {
+  margin-right: 50px;
+}
+
+main section.menus-2 {
+  width: 60%;
+  margin: 100px auto;
+  background-color: #FFF5FE;
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#FDCB46, #905BFD);
+  font-family: "Croissant One", cursive;
+}
+main section.menus-2 .menus-2__details {
+  display: flex;
+  flex-direction: column;
+}
+main section.menus-2 .menus-2__details h3, main section.menus-2 .menus-2__details h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+main section.menus-2 .menus-2__details ul {
+  width: 100%;
+  list-style: none;
+}
+main section.menus-2 .menus-2__details ul li {
+  display: flex;
+}
+main section.menus-2 .menus-2__details ul li p {
+  margin-left: 50px;
+}
+main section.menus-2 .menus-2__details ul li .price {
+  margin-right: 50px;
+}
+
+main section.menus-3 {
+  width: 60%;
+  margin: 100px auto;
+  background-color: #F9F9F9;
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#0835E0, #0887FB);
+  font-family: "Dancing Script", cursive;
+}
+main section.menus-3 .menus-3__details {
+  display: flex;
+  flex-direction: column;
+}
+main section.menus-3 .menus-3__details h3, main section.menus-3 .menus-3__details h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+main section.menus-3 .menus-3__details ul {
+  width: 100%;
+  list-style: none;
+}
+main section.menus-3 .menus-3__details ul li {
+  display: flex;
+}
+main section.menus-3 .menus-3__details ul li p {
+  margin-left: 50px;
+}
+main section.menus-3 .menus-3__details ul li .price {
+  margin-right: 50px;
+}
+
+main section.menus-4 {
+  width: 60%;
+  margin: 100px auto;
+  background-color: linear-gradient(#4C9F42, #C9FF94);
+  box-shadow: 0 0 25px silver;
+  color: linear-gradient(#4C9F42, #C9FF94);
+  font-family: "Kaushan Script", cursive;
+}
+main section.menus-4 .menus-4__details {
+  display: flex;
+  flex-direction: column;
+}
+main section.menus-4 .menus-4__details h3, main section.menus-4 .menus-4__details h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+main section.menus-4 .menus-4__details ul {
+  width: 100%;
+  list-style: none;
+}
+main section.menus-4 .menus-4__details ul li {
+  display: flex;
+}
+main section.menus-4 .menus-4__details ul li p {
+  margin-left: 50px;
+}
+main section.menus-4 .menus-4__details ul li .price {
+  margin-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

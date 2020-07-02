@@ -7,9 +7,9 @@ $color-card-delice:#F9F9F9;
 $color-card-palette:#FFFFFF;
 
 $color-text-note: #3C1218;
-$color-text-chic:linear-gradient($color-secondary, #905BFD);
-$color-text-delice:linear-gradient( #0835E0 0%,#0887FB 100%);
-$color-card-palette:linear-gradient(#4C9F42,#C9FF94);
+$color-text-chic:linear-gradient(to right,$color-secondary, #905BFD);
+$color-text-delice:linear-gradient(to right, #0835E0 0%,#0887FB 100%);
+$color-card-palette:linear-gradient(to right,#4C9F42,#C9FF94);
 
 //fonts//
 
@@ -24,8 +24,7 @@ $font-palette:'Kaushan Script', cursive;
 
 //font size//
 
-$font-size-h3:68px;
-$font-size-h2:92px;
+
 
 $bg-color:(
     primary:$color-primary,
@@ -45,12 +44,16 @@ $text-color:(
 );
 
 
-
 $font-family:(
     card-note:$font-note,
     card-chic:$font-chic,
     card-delice:$font-delice,
     card-palette:$font-palette,
+);
+
+$font-size:(
+    title-home:1.5rem,
+    title-note:2rem,
 )
 
 

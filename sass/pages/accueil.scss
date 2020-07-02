@@ -1,37 +1,38 @@
 main {
     section.menus {
       @include menus;
-      display: flex;
-      flex-wrap: wrap;  
+       display: flex;
+       flex-wrap: wrap;  
         & .menus__cards {
           @include cards; 
-          &--chic {
-            @include card(card-chic); 
-            & a {
-              @include font-style(card-chic, 1.5rem);
+            &--chic {
+              @include card(card-chic);
+                & h2,h3{
+                  @include title-size(title-home);
+                  @include gradient-text(card-chic);
+                }  
             }
-          }
-          &--note {
-            @include card(card-note);
-            & a {
-              @include font-style(card-note, 2rem);
+            &--note {
+              @include card(card-note);
+              & h2, h3 {
+                @include title-size(title-note);
+                color: $color-text-note;
+              }
             }
-          }
-          &--delice {
-            @include card(card-delice);
-            & a {
-              @include font-style(card-delice, 2rem);
+            &--delice {
+              @include card(card-delice);
+                & h2,h3{
+                  @include title-size(title-home);
+                  @include gradient-text(card-delice);
+                } 
             }
-          }
-          &--palette {
+            &--palette {
             @include card(card-palette);
-            & a {
-              @include font-style(card-palette, 2rem);
-            }
+              & h2,h3{
+                @include title-size(title-home);
+                @include gradient-text(card-palette);
+              } 
           } 
-          
-          
-      
-        }
-     }
+      }
+    }  
 } 

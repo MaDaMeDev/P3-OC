@@ -65,36 +65,42 @@ main section.menus .menus__cards--chic {
   box-shadow: 0 0 25px silver;
   font-family: "Croissant One", cursive;
 }
-main section.menus .menus__cards--chic a {
-  color: linear-gradient(#FDCB46, #905BFD);
+main section.menus .menus__cards--chic h2, main section.menus .menus__cards--chic h3 {
   font-size: 1.5rem;
+  background: linear-gradient(to right, #FDCB46, #905BFD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 main section.menus .menus__cards--note {
   background-color: #FCDFDB;
   box-shadow: 0 0 25px silver;
   font-family: "Cookie", cursive;
 }
-main section.menus .menus__cards--note a {
-  color: #3C1218;
+main section.menus .menus__cards--note h2, main section.menus .menus__cards--note h3 {
   font-size: 2rem;
+  color: #3C1218;
 }
 main section.menus .menus__cards--delice {
   background-color: #F9F9F9;
   box-shadow: 0 0 25px silver;
   font-family: "Dancing Script", cursive;
 }
-main section.menus .menus__cards--delice a {
-  color: linear-gradient(#0835E0 0%, #0887FB 100%);
-  font-size: 2rem;
+main section.menus .menus__cards--delice h2, main section.menus .menus__cards--delice h3 {
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 main section.menus .menus__cards--palette {
-  background-color: linear-gradient(#4C9F42, #C9FF94);
+  background-color: linear-gradient(to right, #4C9F42, #C9FF94);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
-main section.menus .menus__cards--palette a {
-  color: linear-gradient(#4C9F42, #C9FF94);
-  font-size: 2rem;
+main section.menus .menus__cards--palette h2, main section.menus .menus__cards--palette h3 {
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #4C9F42, #C9FF94);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 main section.menus-1 {
@@ -125,7 +131,7 @@ main section.menus-1 .menus-1__details ul li {
 }
 main section.menus-1 .menus-1__details ul li p {
   margin-left: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main section.menus-1 .menus-1__details ul li .price {
   margin-right: 50px;
@@ -159,7 +165,7 @@ main section.menus-2 .menus-2__details ul li {
 }
 main section.menus-2 .menus-2__details ul li p {
   margin-left: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main section.menus-2 .menus-2__details ul li .price {
   margin-right: 50px;
@@ -193,7 +199,7 @@ main section.menus-3 .menus-3__details ul li {
 }
 main section.menus-3 .menus-3__details ul li p {
   margin-left: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main section.menus-3 .menus-3__details ul li .price {
   margin-right: 50px;
@@ -202,7 +208,7 @@ main section.menus-3 .menus-3__details ul li .price {
 main section.menus-4 {
   width: 60%;
   margin: 100px auto;
-  background-color: linear-gradient(#4C9F42, #C9FF94);
+  background-color: linear-gradient(to right, #4C9F42, #C9FF94);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
@@ -227,7 +233,7 @@ main section.menus-4 .menus-4__details ul li {
 }
 main section.menus-4 .menus-4__details ul li p {
   margin-left: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 main section.menus-4 .menus-4__details ul li .price {
   margin-right: 50px;

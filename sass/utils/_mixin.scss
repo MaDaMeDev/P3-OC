@@ -17,9 +17,17 @@
     font-family: map-get($font-family, $menu );   
 }
 
-@mixin font-style ($menu,$size) {
-    color: map-get($text-color, $menu);
-    font-size: $size;
+
+@mixin gradient-text($menu) {
+	background: map-get($text-color, $menu);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+@mixin title-size($title) {
+    font-size: map-get($font-size,$title );
+    
 }
 
 @mixin menu-details {
@@ -41,7 +49,7 @@
            padding: 1rem;
            p {
                margin-left: 50px;
-               font-size: 2rem;
+               font-size: 1.5rem;
                
            }
            .price {

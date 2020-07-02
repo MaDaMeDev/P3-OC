@@ -4,19 +4,34 @@ main {
       display: flex;
       flex-wrap: wrap;  
         & .menus__cards {
-          @include cards;
+          @include cards; 
           &--chic {
             @include card(card-chic); 
+            & a {
+              @include font-style(card-chic, 1.5rem);
+            }
           }
           &--note {
             @include card(card-note);
+            & a {
+              @include font-style(card-note, 2rem);
+            }
           }
           &--delice {
             @include card(card-delice);
+            & a {
+              @include font-style(card-delice, 2rem);
+            }
           }
           &--palette {
             @include card(card-palette);
+            & a {
+              @include font-style(card-palette, 2rem);
+            }
           } 
+          
+          
+      
         }
      }
-}
+} 

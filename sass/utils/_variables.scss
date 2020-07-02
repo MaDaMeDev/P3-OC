@@ -8,7 +8,7 @@ $color-card-palette:#FFFFFF;
 
 $color-text-note: #3C1218;
 $color-text-chic:linear-gradient($color-secondary, #905BFD);
-$color-text-delice:linear-gradient(#0835E0,#0887FB);
+$color-text-delice:linear-gradient( #0835E0 0%,#0887FB 100%);
 $color-card-palette:linear-gradient(#4C9F42,#C9FF94);
 
 //fonts//
@@ -44,11 +44,7 @@ $text-color:(
     card-palette:$color-card-palette,
 );
 
-$font-size:(
-    h2: $font-size-h2,
-    h3:$font-size-h3,
-    footer:2rem,   
-);
+
 
 $font-family:(
     card-note:$font-note,

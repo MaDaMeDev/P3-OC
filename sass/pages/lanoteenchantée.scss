@@ -4,7 +4,19 @@ main {
         @include menus;
         @include card(card-note);
         & .menus-1__details{
-            @include menu-details
+            @include menu-details;
+            & .title {
+                font-size:4rem;
+                & .--note {
+                    font-size: 5rem;
+                }
+            }
+            & h4 {
+                font-size: 3rem;;
+            }
+            & p {
+                font-size: 2rem;
+            }
             
         }   
     }

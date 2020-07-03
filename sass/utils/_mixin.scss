@@ -22,7 +22,6 @@
 	background: map-get($text-color, $menu);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 }
 
 @mixin title-size($title) {
@@ -40,7 +39,6 @@
         flex-direction: column;
         text-align: center;
         padding: 3rem;
-        font-size: 3rem;
     }
   ul{
        width: 100%;
@@ -49,9 +47,7 @@
            display: flex;
            padding: 1rem;
            p {
-               margin-left: 50px;
-               font-size: 1.5rem;
-               
+               margin-left: 50px;   
            }
            .price {
             margin-right: 50px;  

@@ -1,15 +1,17 @@
 footer {
     height: 10vh;
     background-color: $color-primary;
-    margin-top: 100px;
+    margin-top: 10rem;
     & .footer__list {
-        border: 5px solid black;
-        padding:20px;
         display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+       
         & a { 
           color: $color-secondary;
           font-size:1.5rem;
-        
+          margin:0 1rem;
+      
         }      
     } 
 }

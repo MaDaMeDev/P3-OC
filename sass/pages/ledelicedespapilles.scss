@@ -4,7 +4,17 @@ main {
         @include menus;
         @include card(card-delice);
         & .menus-3__details{
-            @include menu-details
+            @include menu-details;
+            & h3 {
+                font-size: 4rem;
+                @include gradient-text(card-delice);
+            }
+            & h4 {
+                font-size: 2rem;
+            }
+            & p{
+                font-size: 1.5rem;
+            }
         }   
     }
 

@@ -4,8 +4,29 @@ main {
 
         @include menus;
         @include card(card-chic);
-        & .menus-2__details{
-            @include menu-details
+        & .menus-2__details{ 
+            @include menu-details;
+            & .title {
+                font-size:2.5rem;
+                @include gradient-text(card-chic);  
+            }
+            & .entree {
+                color: #C67412 ;
+            }
+            & .plat {
+                color:#A56799;
+            }
+            .dessert {
+                color:#6E4CCC;
+            }
+
+             h4 {
+                font-size: 2rem; 
+            }
+            & p {
+                font-size: 1rem;
+            }
+            
         }   
     }
 

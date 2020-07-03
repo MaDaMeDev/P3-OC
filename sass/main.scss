@@ -15,7 +15,12 @@
 @import"./pages/ledelicedespapilles.scss";
 @import"./pages/lapalettedugout.scss";
 
-
+.fa-music {
+    font-size: 3rem;
+    background-image: linear-gradient(to right,#F05A61 0%, #F6916A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
  

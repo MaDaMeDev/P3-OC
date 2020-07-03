@@ -27,17 +27,18 @@ footer .footer__list a {
 }
 
 button {
-  width: 550px;
-  height: 115px;
+  width: 20vw;
+  height: 8vh;
   background-color: #579C87;
   color: #FDCB46;
-  font-size: 3rem;
+  font-size: 1.5rem;
   border-radius: 20px;
+  padding: 0 2rem;
   display: flex;
   justify-content: center;
 }
 button .fa-circle {
-  font-size: 1.3rem;
+  font-size: 0.5rem;
 }
 
 * {
@@ -65,8 +66,16 @@ main section.menus .menus__cards--chic {
   box-shadow: 0 0 25px silver;
   font-family: "Croissant One", cursive;
 }
-main section.menus .menus__cards--chic h2, main section.menus .menus__cards--chic h3 {
+main section.menus .menus__cards--chic h2 {
+  font-size: 3rem;
+  padding-top: 2.5rem;
+  background: linear-gradient(to right, #FDCB46, #905BFD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main section.menus .menus__cards--chic h3 {
   font-size: 1.5rem;
+  padding-top: 2.5rem;
   background: linear-gradient(to right, #FDCB46, #905BFD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -76,17 +85,35 @@ main section.menus .menus__cards--note {
   box-shadow: 0 0 25px silver;
   font-family: "Cookie", cursive;
 }
-main section.menus .menus__cards--note h2, main section.menus .menus__cards--note h3 {
-  font-size: 2rem;
-  color: #3C1218;
+main section.menus .menus__cards--note h2 {
+  font-size: 4rem;
+  padding-top: 2.5rem;
+  background: #3C1218;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main section.menus .menus__cards--note h3 {
+  font-size: 2.5rem;
+  padding-top: 2.5rem;
+  background: #3C1218;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 main section.menus .menus__cards--delice {
   background-color: #F9F9F9;
   box-shadow: 0 0 25px silver;
   font-family: "Dancing Script", cursive;
 }
-main section.menus .menus__cards--delice h2, main section.menus .menus__cards--delice h3 {
-  font-size: 1.5rem;
+main section.menus .menus__cards--delice h2 {
+  font-size: 2.3rem;
+  padding-top: 2.5rem;
+  background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main section.menus .menus__cards--delice h3 {
+  font-size: 2.3rem;
+  padding-top: 2.5rem;
   background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -96,8 +123,16 @@ main section.menus .menus__cards--palette {
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
-main section.menus .menus__cards--palette h2, main section.menus .menus__cards--palette h3 {
-  font-size: 1.5rem;
+main section.menus .menus__cards--palette h2 {
+  font-size: 2.3rem;
+  padding-top: 2.5rem;
+  background: linear-gradient(to right, #4C9F42, #C9FF94);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main section.menus .menus__cards--palette h3 {
+  font-size: 2.3rem;
+  padding-top: 2.5rem;
   background: linear-gradient(to right, #4C9F42, #C9FF94);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

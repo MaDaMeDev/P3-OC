@@ -7,31 +7,51 @@ main {
           @include cards; 
             &--chic {
               @include card(card-chic);
-                & h2,h3{
-                  @include title-size(title-home);
+                & h2 {
+                  @include title-size(title-chic-menu);
                   @include gradient-text(card-chic);
                 }  
+                & h3 {
+
+                  @include title-size(title-chic-plat);
+                  @include gradient-text(card-chic);
+                }
             }
             &--note {
               @include card(card-note);
-              & h2, h3 {
-                @include title-size(title-note);
-                color: $color-text-note;
+              & h2 {
+                @include title-size(title-note-menu);
+                @include gradient-text(card-note);
+              }  
+              & h3 {
+
+                @include title-size(title-note-plat);
+                @include gradient-text(card-note);
               }
             }
             &--delice {
               @include card(card-delice);
-                & h2,h3{
-                  @include title-size(title-home);
-                  @include gradient-text(card-delice);
-                } 
+              & h2 {
+                @include title-size(title-delice-palette-menu);
+                @include gradient-text(card-delice);
+              }  
+              & h3 {
+
+                @include title-size(title-delice-palette-plat);
+                @include gradient-text(card-delice);
+              }
             }
             &--palette {
             @include card(card-palette);
-              & h2,h3{
-                @include title-size(title-home);
-                @include gradient-text(card-palette);
-              } 
+            & h2 {
+              @include title-size(title-delice-palette-menu);
+              @include gradient-text(card-palette);
+            }  
+            & h3 {
+
+              @include title-size(title-delice-palette-plat);
+              @include gradient-text(card-palette);
+            }
           } 
       }
     }  

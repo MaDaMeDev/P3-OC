@@ -5,6 +5,7 @@ main {
        flex-wrap: wrap;  
         & .menus__cards {
           @include cards;
+          @include anim-zoom;
             &--chic {
               @include card(card-chic);
                 & h2 {

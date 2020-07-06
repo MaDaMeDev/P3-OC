@@ -273,8 +273,25 @@ main section.menus-1 .menus-1__details .title {
 main section.menus-1 .menus-1__details .title .--note {
   font-size: 5rem;
 }
-main section.menus-1 .menus-1__details h4 {
+main section.menus-1 .menus-1__details .title-plat {
+  display: flex;
+  flex-direction: row;
+}
+main section.menus-1 .menus-1__details .title-plat h4 {
   font-size: 3rem;
+}
+main section.menus-1 .menus-1__details .title-plat h4:after {
+  content: "";
+  height: 0.2rem;
+  width: 0%;
+  background-color: #3C1218;
+  transition: width 0.4s;
+}
+main section.menus-1 .menus-1__details .title-plat h4:hover:after {
+  width: 100%;
+}
+main section.menus-1 .menus-1__details .title-plat img {
+  width: 30%;
 }
 main section.menus-1 .menus-1__details p {
   font-size: 2rem;
@@ -317,17 +334,44 @@ main section.menus-2 .menus-2__details .title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+main section.menus-2 .menus-2__details .title-plat {
+  display: flex;
+  flex-direction: row;
+}
+main section.menus-2 .menus-2__details .title-plat h4 {
+  font-size: 1.5rem;
+}
+main section.menus-2 .menus-2__details .title-plat h4:after {
+  content: "";
+  height: 0.2rem;
+  width: 0%;
+  background-color: #3C1218;
+  transition: width 0.4s;
+}
+main section.menus-2 .menus-2__details .title-plat h4:hover:after {
+  width: 100%;
+}
+main section.menus-2 .menus-2__details .title-plat img {
+  width: 30%;
+  height: 3vh;
+}
 main section.menus-2 .menus-2__details .entree {
   color: #C67412;
+}
+main section.menus-2 .menus-2__details .entree h4:after {
+  background-color: #C67412;
 }
 main section.menus-2 .menus-2__details .plat {
   color: #A56799;
 }
+main section.menus-2 .menus-2__details .plat h4:after {
+  background-color: #A56799;
+}
 main section.menus-2 .menus-2__details .dessert {
   color: #6E4CCC;
 }
-main section.menus-2 .menus-2__details h4 {
-  font-size: 2rem;
+main section.menus-2 .menus-2__details .dessert h4:after {
+  background-color: #6E4CCC;
 }
 main section.menus-2 .menus-2__details p {
   font-size: 1rem;

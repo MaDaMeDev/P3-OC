@@ -8,21 +8,48 @@ main {
             @include menu-details;
             & .title {
                 font-size:2.5rem;
-                @include gradient-text(card-chic);  
+                @include gradient-text(card-chic); 
+            }
+            & .title-plat{
+                display: flex;
+                flex-direction: row;
+                h4 {
+                    font-size: 1.5rem;
+                    &:after  {
+                        content: "";
+                        height: 0.2rem;
+                        width: 0%;
+                        background-color: $color-text-note;
+                        transition: width 0.4s;   
+                    }
+                    &:hover:after {
+                        width: 100%;
+                       }
+                }  
+                & img{
+                    width: 30%;
+                    height: 3vh;  
+                   }  
             }
             & .entree {
                 color: #C67412 ;
+                & h4:after {
+                    background-color:#C67412 ;
+                }
             }
             & .plat {
                 color:#A56799;
+                & h4:after {
+                    background-color:#A56799;
+                }
             }
             .dessert {
                 color:#6E4CCC;
+                & h4:after {
+                    background-color:#6E4CCC;
+                }
             }
 
-             h4 {
-                font-size: 2rem; 
-            }
             & p {
                 font-size: 1rem;
             }

@@ -11,12 +11,31 @@ main {
                     font-size: 5rem;
                 }
             }
-            & h4 {
-                font-size: 3rem;
+            & .title-plat{
+                display: flex;
+                flex-direction: row;
+                h4 {
+                    font-size: 3rem;
+                    &:after  {
+                        content: "";
+                        height: 0.2rem;
+                        width: 0%;
+                        background-color: $color-text-note;
+                        transition: width 0.4s;   
+                    }
+                    &:hover:after {
+                        width: 100%;
+                       }
+                }  
+                & img{
+                    width: 20%; 
+                    
+                   }  
             }
             & p {
                 font-size: 2rem;
             }
+
             
         }   
     }

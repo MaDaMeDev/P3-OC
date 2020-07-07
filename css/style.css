@@ -514,6 +514,11 @@ main section.menus-4 .menus-4__details p {
   font-size: 1.5rem;
 }
 
+.mentions-legales {
+  margin: 10rem;
+  height: 60vh;
+}
+
 .fa-music {
   font-size: 3rem;
   background-image: linear-gradient(to right, #F05A61 0%, #F6916A 100%);

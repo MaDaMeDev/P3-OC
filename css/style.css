@@ -1,8 +1,12 @@
 header {
   background-color: #579C87;
-  height: 20vh;
+  width: 100%;
+  z-index: 1;
+  height: 15vh;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 header .logo {
   color: #FDCB46;
@@ -15,6 +19,10 @@ footer {
   height: 10vh;
   background-color: #579C87;
   margin-top: 10rem;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
 }
 footer .footer__list {
   display: flex;
@@ -96,7 +104,7 @@ button {
 }
 button i {
   font-size: 0.5rem;
-  animation: bounce 2000ms cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+  animation: bounce 1500ms cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
   transform-origin: bottom;
 }
 button .dot1 {
@@ -147,7 +155,7 @@ main section.menus {
 }
 main section.menus .menus__cards {
   width: 40%;
-  height: 70vh;
+  height: 60vh;
   margin-bottom: 90px;
   display: flex;
   text-align: center;
@@ -291,7 +299,7 @@ main section.menus-1 .menus-1__details .title-plat h4:hover:after {
   width: 100%;
 }
 main section.menus-1 .menus-1__details .title-plat img {
-  width: 30%;
+  width: 20%;
 }
 main section.menus-1 .menus-1__details p {
   font-size: 2rem;
@@ -408,14 +416,32 @@ main section.menus-3 .menus-3__details ul li p {
 main section.menus-3 .menus-3__details ul li .price {
   margin-right: 50px;
 }
-main section.menus-3 .menus-3__details h3 {
-  font-size: 4rem;
+main section.menus-3 .menus-3__details .title {
+  font-size: 2.5rem;
   background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-main section.menus-3 .menus-3__details h4 {
+main section.menus-3 .menus-3__details .title-plat {
+  display: flex;
+  flex-direction: row;
+}
+main section.menus-3 .menus-3__details .title-plat h4 {
   font-size: 2rem;
+}
+main section.menus-3 .menus-3__details .title-plat h4:after {
+  content: "";
+  height: 0.2rem;
+  width: 0%;
+  background-color: #0228DD;
+  transition: width 0.4s;
+}
+main section.menus-3 .menus-3__details .title-plat h4:hover:after {
+  width: 100%;
+}
+main section.menus-3 .menus-3__details .title-plat img {
+  width: 30%;
+  height: 3vh;
 }
 main section.menus-3 .menus-3__details p {
   font-size: 1.5rem;
@@ -452,14 +478,37 @@ main section.menus-4 .menus-4__details ul li p {
 main section.menus-4 .menus-4__details ul li .price {
   margin-right: 50px;
 }
-main section.menus-4 .menus-4__details h3 {
-  font-size: 4rem;
+main section.menus-4 .menus-4__details .title {
+  font-size: 2.5rem;
   background: linear-gradient(to right, #4C9F42, #C9FF94);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-main section.menus-4 .menus-4__details h4 {
+main section.menus-4 .menus-4__details .title-plat {
+  display: flex;
+  flex-direction: row;
+}
+main section.menus-4 .menus-4__details .title-plat h4 {
   font-size: 2rem;
+}
+main section.menus-4 .menus-4__details .title-plat h4:after {
+  content: "";
+  height: 0.2rem;
+  width: 0%;
+  background-color: #41963C;
+  transition: width 0.4s;
+}
+main section.menus-4 .menus-4__details .title-plat h4:hover:after {
+  width: 100%;
+}
+main section.menus-4 .menus-4__details .title-plat img {
+  width: 30%;
+  height: 3vh;
+}
+main section.menus-4 .menus-4__details .title-plat img.line-right {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 main section.menus-4 .menus-4__details p {
   font-size: 1.5rem;

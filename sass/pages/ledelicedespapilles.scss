@@ -5,12 +5,30 @@ main {
         @include card(card-delice);
         & .menus-3__details{
             @include menu-details;
-            & h3 {
-                font-size: 4rem;
-                @include gradient-text(card-delice);
+            & .title {
+                font-size:2.5rem;
+                @include gradient-text(card-delice); 
             }
-            & h4 {
-                font-size: 2rem;
+            & .title-plat{
+                display: flex;
+                flex-direction: row;
+                h4 {
+                    font-size: 2rem;
+                    &:after  {
+                        content: "";
+                        height: 0.2rem;
+                        width: 0%;
+                        background-color:#0228DD;
+                        transition: width 0.4s;   
+                    }
+                    &:hover:after {
+                        width: 100%;
+                       }
+                }  
+                & img{
+                    width: 30%;
+                    height: 3vh;  
+                   }  
             }
             & p{
                 font-size: 1.5rem;

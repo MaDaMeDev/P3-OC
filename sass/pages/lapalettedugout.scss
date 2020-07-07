@@ -5,12 +5,35 @@ main {
         @include card(card-palette);
         & .menus-4__details{
             @include menu-details;
-            & h3 {
-                font-size: 4rem;
-                @include gradient-text(card-palette);
+            & .title {
+                font-size:2.5rem;
+                @include gradient-text(card-palette); 
             }
-            & h4 {
-                font-size: 2rem;
+            & .title-plat{
+                display: flex;
+                flex-direction: row;
+                h4 {
+                    font-size: 2rem;
+                    &:after  {
+                        content: "";
+                        height: 0.2rem;
+                        width: 0%;
+                        background-color:#41963C;
+                        transition: width 0.4s;   
+                    }
+                    &:hover:after {
+                        width: 100%;
+                        }
+                }  
+                & img{
+                    width: 30%;
+                    height: 3vh;
+                    &.line-right {
+                        -webkit-transform: rotate(180deg);
+                        -ms-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                        }  
+                }  
             }
             & p{
                 font-size: 1.5rem;

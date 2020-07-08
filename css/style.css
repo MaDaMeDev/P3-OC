@@ -178,6 +178,7 @@ main section.menus .menus__cards--chic h2 {
   background: linear-gradient(to right, #FDCB46, #905BFD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--chic h3 {
   font-size: 1.5rem;
@@ -185,6 +186,7 @@ main section.menus .menus__cards--chic h3 {
   background: linear-gradient(to right, #FDCB46, #905BFD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--note {
   background-color: #FCDFDB;
@@ -197,6 +199,7 @@ main section.menus .menus__cards--note h2 {
   background: #3C1218;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--note h3 {
   font-size: 2.5rem;
@@ -204,6 +207,7 @@ main section.menus .menus__cards--note h3 {
   background: #3C1218;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--delice {
   background-color: #F9F9F9;
@@ -216,6 +220,7 @@ main section.menus .menus__cards--delice h2 {
   background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--delice h3 {
   font-size: 2.3rem;
@@ -223,6 +228,7 @@ main section.menus .menus__cards--delice h3 {
   background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--palette {
   background-color: linear-gradient(to right, #4C9F42, #C9FF94);
@@ -235,6 +241,7 @@ main section.menus .menus__cards--palette h2 {
   background: linear-gradient(to right, #4C9F42, #C9FF94);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus .menus__cards--palette h3 {
   font-size: 2.3rem;
@@ -242,6 +249,7 @@ main section.menus .menus__cards--palette h3 {
   background: linear-gradient(to right, #4C9F42, #C9FF94);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 
 main section.menus-1 {
@@ -341,6 +349,7 @@ main section.menus-2 .menus-2__details .title {
   background: linear-gradient(to right, #FDCB46, #905BFD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus-2 .menus-2__details .title-plat {
   display: flex;
@@ -421,6 +430,7 @@ main section.menus-3 .menus-3__details .title {
   background: linear-gradient(to right, #0835E0 0%, #0887FB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus-3 .menus-3__details .title-plat {
   display: flex;
@@ -483,6 +493,7 @@ main section.menus-4 .menus-4__details .title {
   background: linear-gradient(to right, #4C9F42, #C9FF94);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: block;
 }
 main section.menus-4 .menus-4__details .title-plat {
   display: flex;

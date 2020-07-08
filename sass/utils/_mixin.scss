@@ -32,6 +32,7 @@
 	background: map-get($text-color, $menu);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: block;
 }
 
 @mixin title-size($title) {

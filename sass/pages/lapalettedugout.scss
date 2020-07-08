@@ -6,14 +6,16 @@ main {
         & .menus-4__details{
             @include menu-details;
             & .title {
-                font-size:2.5rem;
+                font-size:4rem;
                 @include gradient-text(card-palette); 
             }
             & .title-plat{
                 display: flex;
                 flex-direction: row;
+                padding: 0 2rem;
                 h4 {
                     font-size: 2rem;
+                    justify-content: center;
                     &:after  {
                         content: "";
                         height: 0.2rem;

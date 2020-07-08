@@ -6,7 +6,7 @@ main {
         & .menus-3__details{
             @include menu-details;
             & .title {
-                font-size:2.5rem;
+                font-size:4rem;
                 @include gradient-text(card-delice); 
             }
             & .title-plat{

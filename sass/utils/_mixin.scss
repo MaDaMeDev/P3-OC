@@ -1,6 +1,10 @@
 @mixin menus {
     width: 60%;
     margin: 100px auto;
+    @include mobile {
+        flex-direction: column; 
+        width: 80%;
+       }  
 }
 
 @mixin cards {
@@ -9,6 +13,9 @@
     margin-bottom: 90px;
     display: flex;
     text-align: center;
+    @include mobile {
+        width: 100%;
+       }  
 }
 
 @mixin card($menu) {
@@ -38,12 +45,16 @@
 @mixin title-size($title) {
     font-size: map-get($font-size,$title );
     padding-top: 2.5rem;
+    @include mobile {
+        font-size: map-get($font-size,$title )* 0.8;
+       }  
     
 }
 
 @mixin menu-details {
     display: flex;
     flex-direction: column;
+   padding-bottom: 5rem;
 
     h3,h4{
         display: flex;
@@ -64,6 +75,12 @@
             margin-right: 50px;  
            }
        }    
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+     @content;   
     }
 }
 

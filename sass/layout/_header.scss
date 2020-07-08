@@ -12,6 +12,9 @@ header {
          color: $color-secondary;
          font-family: $font-primary;
          font-size: 98px;
-         line-height: 127px;       
+         line-height: 127px;
+         @include mobile {
+             font-size: 98px * 0.5 ;
+         }       
     }
 }

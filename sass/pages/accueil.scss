@@ -2,10 +2,12 @@ main {
     section.menus {
       @include menus;
        display: flex;
-       flex-wrap: wrap;  
+       flex-wrap: wrap;
         & .menus__cards {
           @include cards;
-          @include anim-zoom;
+          & a {
+             @include anim-zoom;
+          }
             &--chic {
               @include card(card-chic);
                 & h2 {

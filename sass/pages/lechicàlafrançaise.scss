@@ -14,7 +14,8 @@ main {
                 display: flex;
                 flex-direction: row;
                 h4 {
-                    font-size: 1.5rem;
+                    font-size: 1.7rem;
+                    padding: 4rem 0;
                     &:after  {
                         content: "";
                         height: 0.2rem;
@@ -28,7 +29,8 @@ main {
                 }  
                 & img{
                     width: 30%;
-                    height: 3vh;  
+                    height: 5vh;
+                     
                    }  
             }
             & .entree {
@@ -51,7 +53,7 @@ main {
             }
 
             & p {
-                font-size: 1rem;
+                font-size: 1.2rem;
             }
             
         }   

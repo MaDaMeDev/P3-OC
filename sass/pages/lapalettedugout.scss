@@ -7,15 +7,25 @@ main {
             @include menu-details;
             & .title {
                 font-size:4rem;
-                @include gradient-text(card-palette); 
+                @include gradient-text(card-palette);
+                @include mobile{
+                    font-size: 2.8rem;
+                } 
             }
             & .title-plat{
-                display: flex;
-                flex-direction: row;
+                @include title-dish;
                 padding: 0 2rem;
+                @include mobile {
+                  padding: 0 0.8rem;
+                }
                 h4 {
                     font-size: 2rem;
+                    font-family: $font-menu-note;
                     justify-content: center;
+                    @include mobile {
+                    font-size: 1.5rem;
+                    margin: 1rem;
+                    }
                     &:after  {
                         content: "";
                         height: 0.2rem;
@@ -35,11 +45,26 @@ main {
                         -ms-transform: rotate(180deg);
                         transform: rotate(180deg);
                         }  
+                    @include mobile {
+                        width: 25%;
+                    }
                 }  
             }
-            & p{
-                font-size: 1.5rem;
+            & ul {
+                padding: 0 5rem;
+                @include mobile {
+                    padding: 0 2rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                    font-family: $font-menu-note;
+                    @include mobile {
+                        font-size:1.1rem;
+                        margin: 0;
+                    }
+                }
             }
+            
         }   
     }
 

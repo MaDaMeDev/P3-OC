@@ -1,18 +1,29 @@
 main {
+  width: 100%;
     section.menus {
       @include menus;
        display: flex;
        flex-wrap: wrap;
+       @include mobile {
+        flex-direction: column; 
+        width: 80%;
+       }  
         & .menus__cards {
           @include cards;
+          @include mobile {
+            width: 100%;
+           }  
           & a {
              @include anim-zoom;
+             background-color: none;
           }
             &--chic {
               @include card(card-chic);
                 & h2 {
                   @include title-size(title-chic-menu);
                   @include gradient-text(card-chic);
+                  font-family: $font-menu-chic;
+                  
                 }  
                 & h3 {
 
@@ -25,6 +36,7 @@ main {
               & h2 {
                 @include title-size(title-note-menu);
                 @include gradient-text(card-note);
+                font-family: $font-menu-note;
               }  
               & h3 {
 
@@ -49,6 +61,7 @@ main {
             & h2 {
               @include title-size(title-delice-palette-menu);
               @include gradient-text(card-palette);
+              font-family: $font-delice;
             }  
             & h3 {
 

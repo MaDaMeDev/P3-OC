@@ -2,42 +2,51 @@ main {
     section.menus-1 {
 
         @include menus;
-        @include card(card-note);
-        & .menus-1__details{
-            @include menu-details;
-            & .title {
-                font-size:4rem;
-                & .--note {
-                    font-size: 5rem;
-                }
-            }
-            & .title-plat{
-                display: flex;
-                flex-direction: row;
-                h4 {
-                    font-size: 3rem;
-                    margin: 1rem;
-                    &:after  {
-                        content: "";
-                        height: 0.2rem;
-                        width: 0%;
-                        background-color: $color-text-note;
-                        transition: width 0.4s;   
+       
+            & .menus-1__details{
+                @include card(card-note);
+                @include menu-details;
+                & .title {
+                    font-size:4rem;
+                    padding: 2rem 0;
+                    & .logo {
+                        font-size: 5rem;
                     }
-                    &:hover:after {
-                        width: 100%;
-                       }
-                }  
-                & img{
-                    width: 30%; 
+                }
+                & .title-plat{
+                    font-family: $font-menu-note;
+                    @include title-dish;
+                    & h4 {
+                        font-size: 2.5rem;
+                        margin: 1rem;
+                        @include mobile {
+                            font-size: 1.7rem;
+                        }
+                        &:after  {
+                            content: "";
+                            height: 0.2rem;
+                            width: 0%;
+                            background-color: $color-text-note;
+                            transition: width 0.4s;   
+                        }
+                        &:hover:after {
+                            width: 100%;
+                        }
+                    }  
                     
-                   }  
-            }
-            & p {
-                font-size: 2rem;
-            }
-
-            
+                    & img{
+                        width: 30%;
+                        @include mobile {
+                           width: 20%;
+                            display: block;
+                        }
+                    }  
+                }
+                & p {
+                    font-size: 1.5rem;
+                    font-family: $font-menu-note;
+                }
+   
         }   
     }
 

@@ -2,18 +2,24 @@ main {
     section.menus-3{
 
         @include menus;
-        @include card(card-delice);
         & .menus-3__details{
+            @include card(card-delice);
             @include menu-details;
             & .title {
                 font-size:4rem;
-                @include gradient-text(card-delice); 
+                @include gradient-text(card-delice);
+                @include mobile {
+                    font-size: 3rem;
+                } 
             }
             & .title-plat{
-                display: flex;
-                flex-direction: row;
+               @include title-dish;
                 h4 {
-                    font-size: 2rem;
+                    font-size: 1.8rem;
+                    font-family: $font-menu-note;
+                    @include mobile {
+                        font-size: 1.3rem;
+                    }
                     &:after  {
                         content: "";
                         height: 0.2rem;
@@ -27,11 +33,22 @@ main {
                 }  
                 & img{
                     width: 30%;
-                    height: 3vh;  
+                    height: 3vh;
                    }  
             }
-            & p{
-                font-size: 1.5rem;
+            & ul {
+                padding: 0 5rem;
+                @include mobile {
+                    padding: 0 2rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                    font-family: $font-menu-note;
+                    @include mobile {
+                        font-size:1.1rem;
+                        margin: 0;
+                    }
+                }
             }
         }   
     }

@@ -1,21 +1,22 @@
 
 main {
     section.menus-2{
-
         @include menus;
-        @include card(card-chic);
         & .menus-2__details{ 
+             @include card(card-chic);
             @include menu-details;
             & .title {
-                font-size:2.5rem;
+                font-size:4rem;
                 @include gradient-text(card-chic); 
             }
             & .title-plat{
-                display: flex;
-                flex-direction: row;
+                font-family: $font-menu-chic;
+                @include title-dish;
                 h4 {
-                    font-size: 1.7rem;
-                    padding: 4rem 0;
+                    font-size: 1.3rem;
+                    @include mobile {
+                    font-size: 1.2rem;
+                    }
                     &:after  {
                         content: "";
                         height: 0.2rem;
@@ -30,7 +31,10 @@ main {
                 & img{
                     width: 30%;
                     height: 5vh;
-                     
+                    @include mobile {
+                        width: 30%;
+                        display: block;
+                    }   
                    }  
             }
             & .entree {
@@ -51,9 +55,15 @@ main {
                     background-color:#6E4CCC;
                 }
             }
-
-            & p {
-                font-size: 1.2rem;
+            & ul {
+                padding: 0 5rem;
+                @include mobile {
+                    padding: 0 2rem;
+                }
+                & p {
+                    font-size: 1.3rem;
+                }
+            
             }
             
         }   

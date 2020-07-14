@@ -13,10 +13,12 @@ $color-card-palette:linear-gradient(to right,#4C9F42,#C9FF94);
 
 //fonts//
 
-$font-primary:'Roboto Slab', serif;
+$font-primary: 'Paytone One', sans-serif;
 $font-secondary:'Roboto', sans-serif;
-$font-note:'Cookie', cursive;
-$font-chic:'Croissant One', cursive;
+$font-note:'Devonshire', cursive;
+$font-menu-note:'Kalam', cursive;
+$font-chic:'Aref Ruqaa', serif;
+$font-menu-chic:'Cantata One', serif;
 $font-delice:'Dancing Script', cursive;
 $font-palette:'Kaushan Script', cursive;
 
@@ -46,22 +48,24 @@ $text-color:(
 
 $font-family:(
     card-note:$font-note,
+    card-menu-note:$font-menu-note,
     card-chic:$font-chic,
     card-delice:$font-delice,
     card-palette:$font-palette,
 );
 
 $font-size:(
-    title-note-menu:4rem,
+    title-note-menu:3.5rem,
     title-note-plat:2.5rem,
     title-chic-menu:3rem,
-    title-chic-plat:1.5rem,
-    title-delice-palette-menu:2.3rem,
-    title-delice-palette-plat:2.3rem,
+    title-chic-plat:2rem,
+    title-delice-palette-menu:4rem,
+    title-delice-palette-plat:2.5rem,
 );
 
 $breakpoints:(
     mobile : 425px,
+    tablet: 992px,
 
 
 );

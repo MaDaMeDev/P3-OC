@@ -324,14 +324,14 @@ main section.menus .menus__cards--delice h3 {
   }
 }
 main section.menus .menus__cards--palette {
-  background-color: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
+  background-color: linear-gradient(0.25turn, #3d9339, #bfff7e);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
 main section.menus .menus__cards--palette h2 {
   font-size: 4rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
+  background: linear-gradient(0.25turn, #3d9339, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -345,7 +345,7 @@ main section.menus .menus__cards--palette h2 {
 main section.menus .menus__cards--palette h3 {
   font-size: 2.5rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
+  background: linear-gradient(0.25turn, #3d9339, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -734,7 +734,7 @@ main section.menus-4 .menus-4__details {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
-  background-color: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
+  background-color: linear-gradient(0.25turn, #3d9339, #bfff7e);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
@@ -777,7 +777,7 @@ main section.menus-4 .menus-4__details ul li .price {
 }
 main section.menus-4 .menus-4__details .title {
   font-size: 4rem;
-  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
+  background: linear-gradient(0.25turn, #3d9339, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;

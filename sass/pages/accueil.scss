@@ -15,7 +15,6 @@ main {
            }  
           & a {
              @include anim-zoom;
-             background-color: none;
           }
             &--chic {
               @include card(card-chic);

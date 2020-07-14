@@ -223,7 +223,6 @@ main section.menus .menus__cards a {
   transform: scale(1);
   transition-property: transform;
   transition-duration: 1000ms;
-  background-color: none;
 }
 main section.menus .menus__cards a:hover {
   transform: scale(1.15);
@@ -237,7 +236,7 @@ main section.menus .menus__cards--chic {
 main section.menus .menus__cards--chic h2 {
   font-size: 3rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #FDCB46, #905BFD);
+  background: linear-gradient(to right, #FDCB46 0%, #905BFD 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -251,7 +250,7 @@ main section.menus .menus__cards--chic h2 {
 main section.menus .menus__cards--chic h3 {
   font-size: 2rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #FDCB46, #905BFD);
+  background: linear-gradient(to right, #FDCB46 0%, #905BFD 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -325,14 +324,14 @@ main section.menus .menus__cards--delice h3 {
   }
 }
 main section.menus .menus__cards--palette {
-  background-color: linear-gradient(to right, #4C9F42, #C9FF94);
+  background-color: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
 main section.menus .menus__cards--palette h2 {
   font-size: 4rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #4C9F42, #C9FF94);
+  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -346,7 +345,7 @@ main section.menus .menus__cards--palette h2 {
 main section.menus .menus__cards--palette h3 {
   font-size: 2.5rem;
   padding-top: 2.5rem;
-  background: linear-gradient(to right, #4C9F42, #C9FF94);
+  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -526,7 +525,7 @@ main section.menus-2 .menus-2__details ul li .price {
 }
 main section.menus-2 .menus-2__details .title {
   font-size: 4rem;
-  background: linear-gradient(to right, #FDCB46, #905BFD);
+  background: linear-gradient(to right, #FDCB46 0%, #905BFD 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -719,7 +718,7 @@ main section.menus-3 .menus-3__details ul p {
 main section.menus-4 {
   width: 60%;
   margin: 100px auto;
-  background-color: linear-gradient(to right, #4C9F42, #C9FF94);
+  background-color: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
   box-shadow: 0 0 25px silver;
   font-family: "Kaushan Script", cursive;
 }
@@ -778,7 +777,7 @@ main section.menus-4 .menus-4__details ul li .price {
 }
 main section.menus-4 .menus-4__details .title {
   font-size: 4rem;
-  background: linear-gradient(to right, #4C9F42, #C9FF94);
+  background: linear-gradient(to right, #4C9F42 0%, #C9FF94 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -860,7 +859,6 @@ main section.menus-4 .menus-4__details ul p {
 }
 .mentions-legales p {
   margin: 3rem 0;
-  line-height: auto;
 }
 
 .fa-music {

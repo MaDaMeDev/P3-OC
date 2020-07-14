@@ -1,10 +1,9 @@
 main {
     section.menus-4{
-
+        @include card(card-palette);
         @include menus;
         & .menus-4__details{
             @include menu-details;
-            @include card(card-palette);
             & .title {
                 font-size:4rem;
                 @include gradient-text(card-palette);

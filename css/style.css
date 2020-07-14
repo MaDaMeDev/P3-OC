@@ -716,6 +716,9 @@ main section.menus-3 .menus-3__details ul p {
 }
 
 main section.menus-4 {
+  background-color: linear-gradient(0.25turn, #3d9339, #bfff7e);
+  box-shadow: 0 0 25px silver;
+  font-family: "Kaushan Script", cursive;
   width: 60%;
   margin: 100px auto;
 }
@@ -734,9 +737,6 @@ main section.menus-4 .menus-4__details {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
-  background-color: linear-gradient(0.25turn, #3d9339, #bfff7e);
-  box-shadow: 0 0 25px silver;
-  font-family: "Kaushan Script", cursive;
 }
 main section.menus-4 .menus-4__details h3, main section.menus-4 .menus-4__details h4 {
   display: flex;

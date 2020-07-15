@@ -401,7 +401,7 @@ main section.menus-1 .menus-1__details ul li p {
 }
 @media screen and (max-width: 699px) {
   main section.menus-1 .menus-1__details ul li p {
-    margin-left: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }
@@ -508,7 +508,7 @@ main section.menus-2 .menus-2__details ul li p {
 }
 @media screen and (max-width: 699px) {
   main section.menus-2 .menus-2__details ul li p {
-    margin-left: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }
@@ -645,7 +645,7 @@ main section.menus-3 .menus-3__details ul li p {
 }
 @media screen and (max-width: 699px) {
   main section.menus-3 .menus-3__details ul li p {
-    margin-left: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }
@@ -765,7 +765,7 @@ main section.menus-4 .menus-4__details ul li p {
 }
 @media screen and (max-width: 699px) {
   main section.menus-4 .menus-4__details ul li p {
-    margin-left: 0;
+    margin: 0 auto;
     text-align: center;
   }
 }

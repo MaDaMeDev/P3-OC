@@ -1,7 +1,6 @@
 header {
     background-color: $color-primary;
     width: 100%;
-    z-index: 1;
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -10,8 +9,9 @@ header {
          font-family: $font-primary;
          font-size: 98px;
          line-height: 127px;
+         display: block;
          @include mobile {
-             font-size:calc(98px * 0.6) ;
+             font-size:calc(98px * 0.5) ;
          }       
     }
 }

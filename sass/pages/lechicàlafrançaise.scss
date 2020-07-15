@@ -7,7 +7,10 @@ main {
             @include menu-details;
             & .title {
                 font-size:4rem;
-                @include gradient-text(card-chic); 
+                @include gradient-text(card-chic);
+                @include  mobile {
+                    font-size: 2.5rem;
+                } 
             }
             & .title-plat{
                 font-family: $font-menu-chic;

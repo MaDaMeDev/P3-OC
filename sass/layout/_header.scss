@@ -11,7 +11,7 @@ header {
          font-size: 98px;
          line-height: 127px;
          @include mobile {
-             font-size:calc(98px * 0.5) ;
+             font-size:calc(98px * 0.6) ;
          }       
     }
 }

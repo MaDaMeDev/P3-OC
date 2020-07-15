@@ -5,7 +5,6 @@ header {
   height: 15vh;
   display: flex;
   justify-content: center;
-  position: sticky;
   top: 0;
 }
 header .logo {
@@ -102,7 +101,7 @@ footer .footer__list :hover.vibrate {
     transform: translate(0);
   }
 }
-button {
+.btn {
   width: 20%;
   height: 8vh;
   background-color: #579C87;
@@ -112,42 +111,41 @@ button {
   padding: 0 2rem;
   display: flex;
   justify-content: center;
-  border: none;
 }
 @media screen and (max-width: 425px) {
-  button {
+  .btn {
     width: 80%;
     font-size: calc(1.7rem * 0.6);
-    padding: 1rem 7rem;
+    padding: 0rem 7rem;
   }
 }
-@media screen and (max-width: 992px) {
-  button {
+@media screen and (max-width: 1024px) {
+  .btn {
     width: 40%;
   }
 }
-button i {
+.btn i {
   font-size: 0.7rem;
   animation: bounce 1500ms cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
   transform-origin: bottom;
 }
 @media screen and (max-width: 425px) {
-  button i {
+  .btn i {
     font-size: calc(0.7rem * 0.7);
   }
 }
-@media screen and (max-width: 992px) {
-  button i {
+@media screen and (max-width: 1024px) {
+  .btn i {
     margin-left: 1rem;
   }
 }
-button .dot1 {
+.btn .dot1 {
   animation-delay: 150ms;
 }
-button .dot2 {
+.btn .dot2 {
   animation-delay: 300ms;
 }
-button .dot3 {
+.btn .dot3 {
   animation-delay: 450ms;
 }
 
@@ -195,7 +193,7 @@ main section.menus {
     margin: 2rem auto;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   main section.menus {
     margin: 5rem auto;
     width: 90%;
@@ -365,7 +363,7 @@ main section.menus-1 {
     margin: 2rem auto;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   main section.menus-1 {
     margin: 5rem auto;
     width: 90%;
@@ -472,7 +470,7 @@ main section.menus-2 {
     margin: 2rem auto;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   main section.menus-2 {
     margin: 5rem auto;
     width: 90%;
@@ -604,7 +602,7 @@ main section.menus-3 {
     margin: 2rem auto;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   main section.menus-3 {
     margin: 5rem auto;
     width: 90%;
@@ -727,7 +725,7 @@ main section.menus-4 {
     margin: 2rem auto;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   main section.menus-4 {
     margin: 5rem auto;
     width: 90%;

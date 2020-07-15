@@ -1,4 +1,4 @@
-button {
+.btn {
     width: 20%;
     height: 8vh;
     background-color: $color-primary;
@@ -8,11 +8,10 @@ button {
     padding: 0 2rem;
     display: flex;
     justify-content: center;
-    border: none;
     @include mobile{
         width: 80%;
         font-size: calc(1.7rem * 0.6);
-        padding: 1rem 7rem;
+        padding: 0rem 7rem;
     }
     @include tablet{
         width: 40%;

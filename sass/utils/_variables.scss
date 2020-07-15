@@ -1,3 +1,4 @@
+
 $color-primary:#579C87;
 $color-secondary:#FDCB46;
 
@@ -15,19 +16,16 @@ $color-text-palette:linear-gradient(to right, #3d9339 0%, #bfff7e 100%);
 
 //fonts//
 
-$font-primary: 'Paytone One', sans-serif;
+$font-primary:'Raleway', sans-serif;
 $font-note:'Devonshire', cursive;
 $font-menu-note:'Kalam', cursive;
 $font-chic:'Aref Ruqaa', serif;
 $font-menu-chic:'Cantata One', serif;
 $font-delice:'Dancing Script', cursive;
 $font-palette:'Kaushan Script', cursive;
-
-
+$font-button:'Paytone One', sans-serif;
 
 //font size//
-
-
 
 $bg-color:(
     primary:$color-primary,

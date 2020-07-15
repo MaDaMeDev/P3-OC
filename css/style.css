@@ -1,19 +1,19 @@
 header {
   background-color: #579C87;
   width: 100%;
-  height: 15vh;
+  height: 8rem;
   display: flex;
   justify-content: center;
 }
 header .logo {
   color: #FDCB46;
   font-family: "Raleway", sans-serif;
-  font-size: 98px;
+  font-size: 5rem;
   display: block;
 }
 @media screen and (max-width: 699px) {
   header .logo {
-    font-size: calc(98px * 0.5);
+    font-size: calc(8rem * 0.4);
   }
 }
 
@@ -213,6 +213,7 @@ main section.menus .menus__cards {
 @media screen and (max-width: 699px) {
   main section.menus .menus__cards {
     width: 100%;
+    height: 30rem;
   }
 }
 main section.menus .menus__cards a {

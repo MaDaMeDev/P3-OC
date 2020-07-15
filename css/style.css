@@ -5,7 +5,6 @@ header {
   height: 15vh;
   display: flex;
   justify-content: center;
-  top: 0;
 }
 header .logo {
   color: #FDCB46;
@@ -13,7 +12,7 @@ header .logo {
   font-size: 98px;
   line-height: 127px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   header .logo {
     font-size: calc(98px * 0.5);
   }
@@ -39,7 +38,7 @@ footer .footer__list a {
   font-size: 1.5rem;
   margin: 0 1rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   footer .footer__list a {
     font-size: calc(1.5rem * 0.6);
   }
@@ -112,7 +111,7 @@ footer .footer__list :hover.vibrate {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   .btn {
     width: 80%;
     font-size: calc(1.7rem * 0.6);
@@ -129,7 +128,7 @@ footer .footer__list :hover.vibrate {
   animation: bounce 1500ms cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
   transform-origin: bottom;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   .btn i {
     font-size: calc(0.7rem * 0.7);
   }
@@ -188,7 +187,7 @@ main section.menus {
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus {
     margin: 2rem auto;
   }
@@ -199,7 +198,7 @@ main section.menus {
     width: 90%;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus {
     flex-direction: column;
     width: 80%;
@@ -212,7 +211,7 @@ main section.menus .menus__cards {
   display: flex;
   text-align: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards {
     width: 100%;
   }
@@ -240,7 +239,7 @@ main section.menus .menus__cards--chic h2 {
   display: block;
   font-family: "Cantata One", serif;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--chic h2 {
     font-size: 2.4rem;
   }
@@ -253,7 +252,7 @@ main section.menus .menus__cards--chic h3 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--chic h3 {
     font-size: 1.6rem;
   }
@@ -272,7 +271,7 @@ main section.menus .menus__cards--note h2 {
   display: block;
   font-family: "Kalam", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--note h2 {
     font-size: 2.8rem;
   }
@@ -285,7 +284,7 @@ main section.menus .menus__cards--note h3 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--note h3 {
     font-size: 2rem;
   }
@@ -303,7 +302,7 @@ main section.menus .menus__cards--delice h2 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--delice h2 {
     font-size: 3.2rem;
   }
@@ -316,7 +315,7 @@ main section.menus .menus__cards--delice h3 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--delice h3 {
     font-size: 2rem;
   }
@@ -335,7 +334,7 @@ main section.menus .menus__cards--palette h2 {
   display: block;
   font-family: "Dancing Script", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--palette h2 {
     font-size: 3.2rem;
   }
@@ -348,7 +347,7 @@ main section.menus .menus__cards--palette h3 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus .menus__cards--palette h3 {
     font-size: 2rem;
   }
@@ -358,7 +357,7 @@ main section.menus-1 {
   width: 60%;
   margin: 100px auto;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 {
     margin: 2rem auto;
   }
@@ -391,7 +390,7 @@ main section.menus-1 .menus-1__details ul li {
   display: flex;
   padding: 1rem 0;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 .menus-1__details ul li {
     flex-direction: column;
     margin: 1rem;
@@ -400,7 +399,7 @@ main section.menus-1 .menus-1__details ul li {
 main section.menus-1 .menus-1__details ul li p {
   margin-left: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 .menus-1__details ul li p {
     margin-left: 0;
     text-align: center;
@@ -409,7 +408,7 @@ main section.menus-1 .menus-1__details ul li p {
 main section.menus-1 .menus-1__details ul li .price {
   margin-right: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 .menus-1__details ul li .price {
     margin: 1rem auto;
   }
@@ -432,7 +431,7 @@ main section.menus-1 .menus-1__details .title-plat h4 {
   font-size: 2.5rem;
   margin: 1rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 .menus-1__details .title-plat h4 {
     font-size: 1.7rem;
   }
@@ -450,7 +449,7 @@ main section.menus-1 .menus-1__details .title-plat h4:hover:after {
 main section.menus-1 .menus-1__details .title-plat img {
   width: 30%;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-1 .menus-1__details .title-plat img {
     width: 20%;
     display: block;
@@ -465,7 +464,7 @@ main section.menus-2 {
   width: 60%;
   margin: 100px auto;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 {
     margin: 2rem auto;
   }
@@ -498,7 +497,7 @@ main section.menus-2 .menus-2__details ul li {
   display: flex;
   padding: 1rem 0;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details ul li {
     flex-direction: column;
     margin: 1rem;
@@ -507,7 +506,7 @@ main section.menus-2 .menus-2__details ul li {
 main section.menus-2 .menus-2__details ul li p {
   margin-left: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details ul li p {
     margin-left: 0;
     text-align: center;
@@ -516,7 +515,7 @@ main section.menus-2 .menus-2__details ul li p {
 main section.menus-2 .menus-2__details ul li .price {
   margin-right: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details ul li .price {
     margin: 1rem auto;
   }
@@ -538,7 +537,7 @@ main section.menus-2 .menus-2__details .title-plat {
 main section.menus-2 .menus-2__details .title-plat h4 {
   font-size: 1.3rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details .title-plat h4 {
     font-size: 1.2rem;
   }
@@ -557,7 +556,7 @@ main section.menus-2 .menus-2__details .title-plat img {
   width: 30%;
   height: 5vh;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details .title-plat img {
     width: 30%;
     display: block;
@@ -584,7 +583,7 @@ main section.menus-2 .menus-2__details .dessert h4:after {
 main section.menus-2 .menus-2__details ul {
   padding: 0 5rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-2 .menus-2__details ul {
     padding: 0 2rem;
   }
@@ -597,7 +596,7 @@ main section.menus-3 {
   width: 60%;
   margin: 100px auto;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 {
     margin: 2rem auto;
   }
@@ -630,7 +629,7 @@ main section.menus-3 .menus-3__details ul li {
   display: flex;
   padding: 1rem 0;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details ul li {
     flex-direction: column;
     margin: 1rem;
@@ -639,7 +638,7 @@ main section.menus-3 .menus-3__details ul li {
 main section.menus-3 .menus-3__details ul li p {
   margin-left: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details ul li p {
     margin-left: 0;
     text-align: center;
@@ -648,7 +647,7 @@ main section.menus-3 .menus-3__details ul li p {
 main section.menus-3 .menus-3__details ul li .price {
   margin-right: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details ul li .price {
     margin: 1rem auto;
   }
@@ -660,7 +659,7 @@ main section.menus-3 .menus-3__details .title {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details .title {
     font-size: 3rem;
   }
@@ -675,7 +674,7 @@ main section.menus-3 .menus-3__details .title-plat h4 {
   font-size: 1.8rem;
   font-family: "Kalam", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details .title-plat h4 {
     font-size: 1.3rem;
   }
@@ -697,7 +696,7 @@ main section.menus-3 .menus-3__details .title-plat img {
 main section.menus-3 .menus-3__details ul {
   padding: 0 5rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details ul {
     padding: 0 2rem;
   }
@@ -706,7 +705,7 @@ main section.menus-3 .menus-3__details ul p {
   font-size: 1.3rem;
   font-family: "Kalam", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-3 .menus-3__details ul p {
     font-size: 1.1rem;
     margin: 0;
@@ -720,7 +719,7 @@ main section.menus-4 {
   width: 60%;
   margin: 100px auto;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 {
     margin: 2rem auto;
   }
@@ -750,7 +749,7 @@ main section.menus-4 .menus-4__details ul li {
   display: flex;
   padding: 1rem 0;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details ul li {
     flex-direction: column;
     margin: 1rem;
@@ -759,7 +758,7 @@ main section.menus-4 .menus-4__details ul li {
 main section.menus-4 .menus-4__details ul li p {
   margin-left: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details ul li p {
     margin-left: 0;
     text-align: center;
@@ -768,7 +767,7 @@ main section.menus-4 .menus-4__details ul li p {
 main section.menus-4 .menus-4__details ul li .price {
   margin-right: 4rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details ul li .price {
     margin: 1rem auto;
   }
@@ -780,7 +779,7 @@ main section.menus-4 .menus-4__details .title {
   -webkit-text-fill-color: transparent;
   display: block;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details .title {
     font-size: 2.8rem;
   }
@@ -792,7 +791,7 @@ main section.menus-4 .menus-4__details .title-plat {
   padding: 1rem 0;
   padding: 0 2rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details .title-plat {
     padding: 0 0.8rem;
   }
@@ -802,7 +801,7 @@ main section.menus-4 .menus-4__details .title-plat h4 {
   font-family: "Kalam", cursive;
   justify-content: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details .title-plat h4 {
     font-size: 1.5rem;
     margin: 1rem;
@@ -827,7 +826,7 @@ main section.menus-4 .menus-4__details .title-plat img.line-right {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details .title-plat img {
     width: 25%;
   }
@@ -835,7 +834,7 @@ main section.menus-4 .menus-4__details .title-plat img.line-right {
 main section.menus-4 .menus-4__details ul {
   padding: 0 5rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details ul {
     padding: 0 2rem;
   }
@@ -844,7 +843,7 @@ main section.menus-4 .menus-4__details ul p {
   font-size: 1.3rem;
   font-family: "Kalam", cursive;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 630px) {
   main section.menus-4 .menus-4__details ul p {
     font-size: 1.1rem;
     margin: 0;

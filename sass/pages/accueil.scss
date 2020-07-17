@@ -11,8 +11,8 @@ main {
         & .menus__cards {
           @include cards;
           @include mobile {
-            width: 100%;
-            height: 30rem;
+            width: 80vw;
+            height: 120vw;
            }  
           & a {
              @include anim-zoom;
